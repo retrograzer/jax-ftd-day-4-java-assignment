@@ -31,7 +31,7 @@ public class GrowthModel {
 	public Butterpillar catterflyToButterpillar(Catterfly catterfly) {
 		//double le = catterfly.getWingspan();
 		//double len = catterfly.getWeight();
-		return new Butterpillar(catterfly.wingspan / leavesEatenToWeight, catterfly.weight / lengthToWingspan); 
+		return new Butterpillar( catterfly.weight / leavesEatenToWeight, catterfly.wingspan / lengthToWingspan); 
 	}
 	
 	public boolean equals(GrowthModel g) {

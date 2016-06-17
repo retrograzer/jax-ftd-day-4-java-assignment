@@ -6,8 +6,8 @@ public class Butterpillar {
 	double leavesEaten;
 
 	public Butterpillar(double d, double e) {
-		length = d;
-		leavesEaten = e;
+		leavesEaten = d;
+		length = e;
 	}
 
 	public Butterpillar() {

@@ -6,8 +6,8 @@ public class Catterfly {
 	double weight;
 
 	public Catterfly(double d, double e) {
-		wingspan = d;
-		weight = e;
+		weight = d;
+		wingspan = e;
 	}
 
 	public Catterfly() {
