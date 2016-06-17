@@ -2,8 +2,8 @@ package com.cooksys.butterpillar.model;
 
 public class Butterpillar {
 	
-	private double length;
-	private double leavesEaten;
+	double length;
+	double leavesEaten;
 
 	public Butterpillar(double d, double e) {
 		length = d;

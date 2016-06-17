@@ -2,8 +2,8 @@ package com.cooksys.butterpillar.model;
 
 public class Catterfly {
 	
-	private double wingspan;
-	private double weight;
+	double wingspan;
+	double weight;
 
 	public Catterfly(double d, double e) {
 		wingspan = d;
