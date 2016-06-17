@@ -1,7 +1,5 @@
 package com.cooksys.butterpillar.test.model;
 
-import static org.junit.Assert.fail;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +7,8 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.cooksys.butterpillar.model.Butterpillar;
 import com.cooksys.butterpillar.model.Catterfly;
@@ -19,6 +19,7 @@ public class GrowthModelTest {
 	private GrowthModel model;
 	private List<Butterpillar> butterpillars;
 	private List<Catterfly> catterflies;
+	public Logger log = LoggerFactory.getLogger(GrowthModelTest.class);
 
 	@Before
 	public void before() {

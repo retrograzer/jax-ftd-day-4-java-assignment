@@ -2,31 +2,41 @@ package com.cooksys.butterpillar.model;
 
 public class Butterpillar {
 	
-	// any instance fields should be private
+	private double length;
+	private double leavesEaten;
+
+	public Butterpillar(double d, double e) {
+		length = d;
+		leavesEaten = e;
+	}
+
+	public Butterpillar() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public double getLength() {
-		return 0; // TODO: to be implemented
+		return length; // TODO: to be implemented
 	}
 
 	public void setLength(double length) {
-		// TODO: to be implemented
+		this.length = length;
 	}
 
 	public double getLeavesEaten() {
-		return 0; // TODO: to be implemented
+		return leavesEaten; // TODO: to be implemented
 	}
 
 	public void setLeavesEaten(double leavesEaten) {
-		// TODO: to be implemented
+		this.leavesEaten = leavesEaten;
 	}
 	
 	public boolean equals(Butterpillar b) {
-		return false; // TODO: to be implemented
+		return length == b.length && leavesEaten == b.leavesEaten;
 	}
 	
 	@Override
 	public String toString() {
-		return null; // TODO: to be implemented
+		return "Butterpillar [length:" + length + ", leavesEaten: " + leavesEaten + "]";
 	}
 	
 	@Override
